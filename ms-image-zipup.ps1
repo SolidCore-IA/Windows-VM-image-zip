@@ -13,7 +13,6 @@ sdelete.exe -z C:\
 Remove-item -path C:\msserver-kit\ -recurse
 C:\windows\system32\sysprep\sysprep.exe /generalize /oobe /shutdown /quiet
 
-<<<<<<< Updated upstream
 -powercfg.exe /hibernate off
 -disable shutdown tracker
 -verbose info on shutdown/startup
@@ -21,6 +20,4 @@ C:\windows\system32\sysprep\sysprep.exe /generalize /oobe /shutdown /quiet
 -allow remote connections
 -disable manage your server at logon
 -disable IPv6
-=======
-#done
->>>>>>> Stashed changes
+
